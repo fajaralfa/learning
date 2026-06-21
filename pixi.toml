@@ -1,0 +1,15 @@
+[workspace]
+authors = ["fajaralfa <fajaralfrzi@gmail.com>"]
+channels = ["conda-forge"]
+name = "learning"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+jupyter = ">=1.1.1,<2"
+pandas = ">=3.0.2,<4"
+matplotlib = ">=3.10.8,<4"
+datasets = ">=4.8.4,<5"
+scikit-learn = ">=1.8.0,<2"
